@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "project-lilac",
   "version": "1.0.0",
   "description": "process logger repo",
@@ -8,7 +9,7 @@
     "scripts": "scripts"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./test/test-js.js"
   },
   "repository": {
     "type": "git",
